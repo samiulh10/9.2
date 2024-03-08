@@ -5,8 +5,16 @@ public class Animal {
         name = n;
     }
 
+    public Animal() {
+        System.out.println("called");
+    }
+
     public void meow() {
         System.out.println("meow");
+    }
+
+    public void getName() {
+        System.out.println(name);
     }
 
 }
