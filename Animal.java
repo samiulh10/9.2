@@ -17,4 +17,8 @@ public class Animal {
         System.out.println(name);
     }
 
+    public String toString() {
+        return "this is animal" + name;
+    }
+
 }

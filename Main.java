@@ -5,5 +5,15 @@ public class Main {
         tiger.getName();
 
         tiger.meow();
+
+        Animal cat = new Animal("wow");
+
+        cat.meow();
+
+        Animal c = new Cat("testCat", 1);
+
+        System.out.println(tiger);
+        System.out.println(cat);
+        System.out.println(c);
     }
 }

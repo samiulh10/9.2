@@ -16,4 +16,8 @@ public class Cat extends Animal {
     public void getName() {
         super.getName();
     }
+
+    public String toString() {
+        return "This is cat" + age;
+    }
 }
