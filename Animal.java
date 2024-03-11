@@ -13,6 +13,10 @@ public class Animal {
         System.out.println("meow");
     }
 
+    public void changeNameOfAnimal(String n) {
+        name = n;
+    }
+
     public void getName() {
         System.out.println(name);
     }

@@ -1,6 +1,8 @@
 public class Cat extends Animal {
     private int age;
 
+    private String name;
+
     public Cat(String n, int a) {
         super(n);
         System.out.println("cat called");
@@ -19,5 +21,9 @@ public class Cat extends Animal {
 
     public String toString() {
         return "This is cat" + age;
+    }
+
+    public void changeName(String n) {
+        super.changeNameOfAnimal(n);
     }
 }
