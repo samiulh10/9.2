@@ -31,6 +31,7 @@ public class Main {
 
         System.out.println(cat.equals(testCase));
         System.out.println(cat.toString());
+        System.out.println(testCase.toString());
 
         c.makeNoise();
 
