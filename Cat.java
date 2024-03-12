@@ -27,6 +27,10 @@ public class Cat extends Animal {
         super.changeNameOfAnimal(n);
     }
 
+    public void makeNoise() {
+        System.out.println("meoww");
+    }
+
 
 
 }

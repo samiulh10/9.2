@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
         Cat tiger = new Cat("tiger", 4);
 
-        Cat tigerTwo = new Cat("tigetTwo", 4);
+        Cat tigerTwo = new Cat("tigerTwo", 4);
 
         Animal testCase = new Animal();
 
@@ -28,6 +28,11 @@ public class Main {
         ArrayList<Animal> animals = new ArrayList<Animal>();
         animals.add(new Animal("hey"));
         animals.add(tiger);
+
+        System.out.println(cat.equals(testCase));
+        System.out.println(cat.toString());
+
+        c.makeNoise();
 
 
 

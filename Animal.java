@@ -27,8 +27,16 @@ public class Animal {
         return "this is animal" + name;
     }
 
+    public boolean equals(Animal other) {
+        return this.name.equals(other.name);
+    }
+
     public boolean compareAge(Animal other) {
         return other.age == this.age;
+    }
+
+    public void makeNoise() {
+        System.out.println("animalhehe");
     }
 
 }
