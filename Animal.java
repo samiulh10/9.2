@@ -1,6 +1,8 @@
 public class Animal {
     private String name;
 
+    private int age;
+
     public Animal(String n) {
         name = n;
     }
@@ -23,6 +25,10 @@ public class Animal {
 
     public String toString() {
         return "this is animal" + name;
+    }
+
+    public boolean compareAge(Animal other) {
+        return other.age == this.age;
     }
 
 }
